@@ -2,7 +2,7 @@ package model;
 
 /**
  *
- * @author nikol
+ * @author Nicolas Rodriguez
  */
 public class User {
     
