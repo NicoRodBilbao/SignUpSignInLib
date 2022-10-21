@@ -6,6 +6,6 @@ package model;
  * @author Nicolas Rodriguez
  */
 public enum UserPrivilege {
-    USER,
-    ADMIN;
+    USER,       // User is user
+    ADMIN;     // User is admin
 }
