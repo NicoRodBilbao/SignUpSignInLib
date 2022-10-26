@@ -1,5 +1,6 @@
 package interfaces;
 
+import exceptions.*;
 import model.User;
 
 /**
@@ -9,7 +10,7 @@ import model.User;
  * @author Nicolas Rodriguez
  */
 public interface Userable {    
-    public User login(String username);
+    public User login(String username) throws TimeOutException,  UserDoesNotExistException;
     
-    public void signUp(User user);
+    public void signUp(User user) throws TimeOutException,  UserAlreadyExistsException,  EmailAlreadyExistsException;
 }
