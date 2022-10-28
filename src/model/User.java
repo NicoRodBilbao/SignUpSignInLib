@@ -1,11 +1,13 @@
 package model;
 
+import java.io.Serializable;
+
 /**
  * This bean is the main data object of the Application.
  *
  * @author Nicolas Rodriguez
  */
-public class User {
+public class User implements Serializable {
     private Integer id;
     private String login;
     private String email;
