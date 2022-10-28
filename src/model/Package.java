@@ -1,12 +1,14 @@
 package model;
 
+import java.io.Serializable;
+
 /**
  * This bean is the main way of communication between the server and client.
  * It includes:  
  *
  * @author nikol
  */
-public class Package {
+public class Package implements Serializable {
     
     private User user;
     private Action action;
