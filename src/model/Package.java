@@ -10,7 +10,7 @@ public class Package {
     
     private User user;
     private Action action;
-    private Message messaage;
+    private Message message;
     /**
      * @param user The User needed for the action.
      * @param action The Action to be performed if the 
@@ -19,7 +19,7 @@ public class Package {
     public Package(User user, Action action, Message message) {
         this.user = user;
         this.action = action;
-        this.messaage = message;
+        this.message = message;
     }
 
     public void setUser(User user) {
@@ -30,8 +30,8 @@ public class Package {
         this.action = action;
     }
 
-    public void setMessaage(Message messaage) {
-        this.messaage = messaage;
+    public void setMessage(Message messaage) {
+        this.message = messaage;
     }
 
     public User getUser() {
@@ -42,8 +42,8 @@ public class Package {
         return action;
     }
 
-    public Message getMessaage() {
-        return messaage;
+    public Message getMessage() {
+        return message;
     }
     
 }
