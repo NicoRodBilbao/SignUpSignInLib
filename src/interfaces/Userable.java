@@ -10,7 +10,7 @@ import model.User;
  * @author Nicolas Rodriguez
  */
 public interface Userable {    
-    public User login(String username) throws TimeOutException,  UserDoesNotExistException;
+    public User login(String username) throws TimeOutException,  UserDoesNotExistException, ServerException, IncorrectUserException, IncorrectPasswordException;
     
-    public void signUp(User user) throws TimeOutException,  UserAlreadyExistsException,  EmailAlreadyExistsException;
+    public void signUp(User user) throws TimeOutException,  UserAlreadyExistsException,  EmailAlreadyExistsException, IncorrectPasswordException, ServerException;
 }
