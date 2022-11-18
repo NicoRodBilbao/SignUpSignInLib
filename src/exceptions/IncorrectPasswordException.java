@@ -11,6 +11,6 @@ package exceptions;
 public class IncorrectPasswordException extends Exception {
 
     public IncorrectPasswordException() {
-        super("ERROR: The password is incorrect or has an incorrect format.\n\n(Avoid using spaces)");
+        super("ERROR: The password is incorrect or has an incorrect format.\n(Avoid using spaces)");
     }
 }

@@ -9,6 +9,6 @@ package exceptions;
 public class IncorrectUserException extends Exception {
 
     public IncorrectUserException() {
-        super("ERROR: The username is incorrect or has an incorrect format.\n\n(Avoid using spaces)");
+        super("ERROR: The username is incorrect or has an incorrect format.\n(Avoid using spaces)");
     }
 }
